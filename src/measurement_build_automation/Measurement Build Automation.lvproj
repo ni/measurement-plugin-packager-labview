@@ -37,7 +37,7 @@
 				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Builder/Post Install/Edit Configuration File.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Measurement Builder.vi" Type="VI" URL="../Measurement Builder.vi"/>
+		<Item Name="Build Measurement.vi" Type="VI" URL="../Build Measurement.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
