@@ -1,0 +1,6 @@
+Built-Using: nipkg
+Section: Add-Ons
+XB-Plugin: file
+XB-StoreProduct: no
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no
