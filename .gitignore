@@ -3,3 +3,6 @@
 *.lvlps
 *.vip
 *.exe
+
+# Python
+__pycache__
