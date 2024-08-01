@@ -22,7 +22,10 @@
 		<Item Name="Build Feed.vi" Type="VI" URL="../subVIs/Build Feed.vi"/>
 		<Item Name="Build One Package.vi" Type="VI" URL="../subVIs/Build One Package.vi"/>
 		<Item Name="Build Package cmd.vi" Type="VI" URL="../subVIs/Build Package cmd.vi"/>
+		<Item Name="Build Package Path.vi" Type="VI" URL="../subVIs/Build Package Path.vi"/>
+		<Item Name="Build Pkg Directory.vi" Type="VI" URL="../subVIs/Build Pkg Directory.vi"/>
 		<Item Name="Check Initial Version.vi" Type="VI" URL="../subVIs/Check Initial Version.vi"/>
+		<Item Name="Check Python Version.vi" Type="VI" URL="../subVIs/Check Python Version.vi"/>
 		<Item Name="Check the Symbols.vi" Type="VI" URL="../subVIs/Check the Symbols.vi"/>
 		<Item Name="Copy Packaging Components.vi" Type="VI" URL="../subVIs/Copy Packaging Components.vi"/>
 		<Item Name="Create Folder.vi" Type="VI" URL="../subVIs/Create Folder.vi"/>
@@ -39,6 +42,7 @@
 		<Item Name="Set Version.vi" Type="VI" URL="../subVIs/Set Version.vi"/>
 		<Item Name="Start Build.vi" Type="VI" URL="../subVIs/Start Build.vi"/>
 		<Item Name="To Package Name.vi" Type="VI" URL="../subVIs/To Package Name.vi"/>
+		<Item Name="Upload Package to SLE.vi" Type="VI" URL="../subVIs/Upload Package to SLE.vi"/>
 		<Item Name="Valid Folder Name.vi" Type="VI" URL="../subVIs/Valid Folder Name.vi"/>
 		<Item Name="Validate Project Path.vi" Type="VI" URL="../subVIs/Validate Project Path.vi"/>
 		<Item Name="Validate Status.vi" Type="VI" URL="../subVIs/Validate Status.vi"/>
