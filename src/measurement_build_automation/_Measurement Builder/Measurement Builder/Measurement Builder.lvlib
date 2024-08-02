@@ -32,12 +32,14 @@
 		<Item Name="Edit Control File.vi" Type="VI" URL="../subVIs/Edit Control File.vi"/>
 		<Item Name="Edit Instructions.vi" Type="VI" URL="../subVIs/Edit Instructions.vi"/>
 		<Item Name="Get Active ProjectPath.vi" Type="VI" URL="../subVIs/Get Active ProjectPath.vi"/>
+		<Item Name="Get FeedManager Pkg Path.vi" Type="VI" URL="../subVIs/Get FeedManager Pkg Path.vi"/>
 		<Item Name="Get Files and Folders.vi" Type="VI" URL="../subVIs/Get Files and Folders.vi"/>
 		<Item Name="Get Measurement Names.vi" Type="VI" URL="../subVIs/Get Measurement Names.vi"/>
 		<Item Name="Get Selected Meas Data.vi" Type="VI" URL="../subVIs/Get Selected Meas Data.vi"/>
 		<Item Name="Icons.vi" Type="VI" URL="../subVIs/Icons.vi"/>
 		<Item Name="Move the EXE.vi" Type="VI" URL="../subVIs/Move the EXE.vi"/>
 		<Item Name="Populate package files.vi" Type="VI" URL="../subVIs/Populate package files.vi"/>
+		<Item Name="Read Configuration.vi" Type="VI" URL="../subVIs/Read Configuration.vi"/>
 		<Item Name="Read or Write Configurations.vi" Type="VI" URL="../subVIs/Read or Write Configurations.vi"/>
 		<Item Name="Set Version.vi" Type="VI" URL="../subVIs/Set Version.vi"/>
 		<Item Name="Start Build.vi" Type="VI" URL="../subVIs/Start Build.vi"/>

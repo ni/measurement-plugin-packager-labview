@@ -37,7 +37,6 @@
 				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Builder/Post Install/Edit Configuration File.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Build Measurement - Copy.vi" Type="VI" URL="../Build Measurement - Copy.vi"/>
 		<Item Name="Build Measurement.vi" Type="VI" URL="../Build Measurement.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
