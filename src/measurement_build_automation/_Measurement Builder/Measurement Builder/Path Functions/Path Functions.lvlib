@@ -15,6 +15,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Delete File.vi" Type="VI" URL="../subVIs/Delete File.vi"/>
 		<Item Name="Package Manager Path.vi" Type="VI" URL="../subVIs/Package Manager Path.vi"/>
+		<Item Name="Package Path.vi" Type="VI" URL="../subVIs/Package Path.vi"/>
 		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../subVIs/Validate Dir and Create Dir.vi"/>
 	</Item>
 	<Item Name="MeasBuilder Path.vi" Type="VI" URL="../MeasBuilder Path.vi"/>
