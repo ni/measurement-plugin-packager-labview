@@ -14,11 +14,6 @@
 			<Item Name="niScope EX Getting Started" Type="Folder">
 				<Item Name="niScope EX Getting Started_dependencies.lvlib" Type="Library" URL="../niScope EX Getting Started/MeasurementCore/niScope EX Getting Started_dependencies.lvlib"/>
 			</Item>
-			<Item Name="Voltage Measurement" Type="Folder">
-				<Item Name="DMM_Voltage Measurement.lvlib" Type="Library" URL="../Voltage Measurement/MeasurementCore/DMM/DMM_Voltage Measurement.lvlib"/>
-				<Item Name="Main_Voltage Measurement.lvlib" Type="Library" URL="../Voltage Measurement/MeasurementCore/Main_Voltage Measurement.lvlib"/>
-				<Item Name="SMU_Voltage Measurement.lvlib" Type="Library" URL="../Voltage Measurement/MeasurementCore/SMU/SMU_Voltage Measurement.lvlib"/>
-			</Item>
 			<Item Name="Z Power Module" Type="Folder">
 				<Item Name="Main Library_Z Power Module.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Main Library_Z Power Module.lvlib"/>
 				<Item Name="Power Measurement_Z Power Module.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Power Measurement_Z Power Module.lvlib"/>
@@ -432,7 +427,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Sample.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BB6B9F58-2862-4039-8442-177039165A39}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sample.exe</Property>
@@ -496,7 +491,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BB0DA297-3A95-47A6-A59F-781170494399}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Sample UI.lvlibp</Property>
@@ -546,7 +541,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Z Power Module.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1EB6EDA7-E4E3-4A41-9646-C834E4346A6D}</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZPowerModule.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Z Power Module/ZPowerModule.exe</Property>
@@ -609,7 +604,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B9B99F31-A52C-4BCD-BC17-28E9B3ABBC89}</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Z Power Module UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Z Power Module/BuiltUI/Z Power Module UI.lvlibp</Property>
