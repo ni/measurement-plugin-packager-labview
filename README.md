@@ -5,11 +5,11 @@ This repository contains the source code and the workflow for measurement builde
 ## Table of Content
 
 - [Measurement builder tool for LabVIEW](#measurement-builder-tool-for-labview)
-  - [Overview](#overview)
-    - [Builder tool for LabVIEW](#builder-tool-for-labview)
-  - [Software Dependencies](#software-dependencies)
-  - [Getting Started](#getting-started)
-  - [Create and Update NI Package Manager Feeds](#create-and-update-ni-package-manager-feeds)
+  - [Overview](#overview)
+    - [Builder tool for LabVIEW](#builder-tool-for-labview)
+  - [Software Dependencies](#software-dependencies)
+  - [Getting Started](#getting-started)
+  - [Create and Update NI Package Manager Feeds](#create-and-update-ni-package-manager-feeds)
 
 ## Overview
 
