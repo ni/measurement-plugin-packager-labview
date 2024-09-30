@@ -13,7 +13,7 @@ This repository contains the source code and the workflow for measurement builde
 
 ## Overview
 
-## Builder tool for LabVIEW
+### Builder tool for LabVIEW
 
 A measurement plug-in in LabVIEW comes with two build specifications, one is PPL for the measurement UI, and the other is EXE for the measurement logic. The measurement EXE build specification has post-build action VI, which makes the creation of an installer or package difficult for the users. The measurement builder tool solves the problem by providing an easy way to build measurement plug-in service as an NI package.
 
