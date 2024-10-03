@@ -9,7 +9,6 @@ This repository contains the source code and the workflow for measurement builde
     - [Builder tool for LabVIEW](#builder-tool-for-labview)
   - [Software Dependencies](#software-dependencies)
   - [Getting Started](#getting-started)
-  - [Create and Update NI Package Manager Feeds](#create-and-update-ni-package-manager-feeds)
 
 ## Overview
 
@@ -19,21 +18,9 @@ A measurement plug-in in LabVIEW comes with two build specifications, one is PPL
 
 ## Software Dependencies
 
-- LabVIEW 2021 SP1 or later
+- [LabVIEW 2021 SP1 or later](https://www.ni.com/en/support/downloads/software-products/download.labview.html#443865)
+- [Measurement Plug-In SDK for LabVIEW 3.0.0.3](https://github.com/ni/measurement-plugin-labview/releases/tag/v3.0.0.3)
 
 ## Getting Started
 
 - You can refer to the [Measurement Reuse HLD](https://github.com/ni/measurement-builder-tool/blob/main/docs/Measurement%20Builder%20HLD/Measurement%20Reuse%20HLD.md) to understand the workflow for measurement reuse in LabVIEW.
-
-## Create and Update NI Package Manager Feeds
-
-- Packages for various measurement plugins are incorporated into an NI Package Manager feed,
-  allowing users to install new packages or receive updates to existing ones by subscribing to the
-  feed.
-
-- The feeds for measurement plugins are maintained under the attached repo.
-[`package-manager-feeds`](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds).
-
-- Please follow the procedure mentioned in the attached document for adding new packages or updating new
-  versions of existing packages to the feed
-  [`README.md`](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds/blob/main/package-feed-updater/README.md).
