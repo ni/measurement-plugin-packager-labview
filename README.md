@@ -1,6 +1,6 @@
 # Measurement builder tool for LabVIEW
 
-This repository contains the source code and the workflow for measurement builder tool in LabVIEW.
+This repository contains the source code for measurement builder tool which helps to build NI packages for the measurement plugin in LabVIEW.
 
 ## Table of Content
 
@@ -23,4 +23,4 @@ A measurement plug-in in LabVIEW comes with two build specifications, one is PPL
 
 ## Getting Started
 
-- You can refer to the [Measurement Reuse HLD](https://github.com/ni/measurement-builder-tool/blob/main/docs/Measurement%20Builder%20HLD/Measurement%20Reuse%20HLD.md) to understand the workflow for measurement reuse in LabVIEW.
+- You can refer to the [Measurement Plug-in Builder User Manual](https://github.com/ni/measurement-builder-tool/releases/download/v2.0.0.1/Measurement_Plug-in_Builder_User_Manual.pdf) to understand the workflow for measurement reuse in LabVIEW.
