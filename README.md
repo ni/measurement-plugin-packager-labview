@@ -1,6 +1,6 @@
 # Measurement builder tool for LabVIEW
 
-This repository contains the source code for measurement builder tool which helps to build NI packages for the measurement plugin in LabVIEW.
+This repository contains the source code for the Measurement Builder tool which helps to build NI packages for the LabVIEW measurement plug-ins.
 
 ## Table of Content
 
