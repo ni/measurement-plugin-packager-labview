@@ -10,8 +10,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_Measurement Builder" Type="Folder">
+		<Item Name="Measurement Packager Utility" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Packager Helpers" Type="Folder">
+				<Item Name="Dictionary" Type="Folder">
+					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Dictionary/Dictionary.lvlib"/>
+				</Item>
+				<Item Name="Path Functions" Type="Folder">
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Path Functions/Path Functions.lvlib"/>
+				</Item>
+				<Item Name="Queue Driver" Type="Folder">
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Queue Driver/Queue Driver.lvlib"/>
+				</Item>
+				<Item Name="Packager Helpers.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Packager Helpers.lvlib"/>
+			</Item>
+			<Item Name="Post Install" Type="Folder">
+				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Packager Utility/Post Install/Edit Configuration File.vi"/>
+			</Item>
 			<Item Name="Template for Package" Type="Folder">
 				<Item Name="control" Type="Folder">
 					<Item Name="control" Type="Document" URL="../_Measurement Packager Utility/Template for Package/control/control"/>
@@ -21,23 +36,8 @@
 				</Item>
 				<Item Name="debian-binary" Type="Document" URL="../_Measurement Packager Utility/Template for Package/debian-binary"/>
 			</Item>
-			<Item Name="Measurement Builder" Type="Folder">
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Packager Utility/Measurement Builder/Queue Driver/Queue Driver.lvlib"/>
-				</Item>
-				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Packager Utility/Measurement Builder/Path Functions/Path Functions.lvlib"/>
-				</Item>
-				<Item Name="Dictionary" Type="Folder">
-					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Packager Utility/Measurement Builder/Dictionary/Dictionary.lvlib"/>
-				</Item>
-				<Item Name="Measurement Builder.lvlib" Type="Library" URL="../_Measurement Packager Utility/Measurement Builder/Measurement Builder.lvlib"/>
-			</Item>
-			<Item Name="Post Install" Type="Folder">
-				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Packager Utility/Post Install/Edit Configuration File.vi"/>
-			</Item>
 		</Item>
-		<Item Name="Build Measurement.vi" Type="VI" URL="../Build Measurement.vi"/>
+		<Item Name="Package Measurement.vi" Type="VI" URL="../Package Measurement.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
