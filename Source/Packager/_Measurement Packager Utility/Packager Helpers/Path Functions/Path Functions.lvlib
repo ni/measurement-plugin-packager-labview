@@ -11,12 +11,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="controls" Type="Folder"/>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Create Folder.vi" Type="VI" URL="../subVIs/Create Folder.vi"/>
 		<Item Name="Delete File.vi" Type="VI" URL="../subVIs/Delete File.vi"/>
 		<Item Name="Package Manager Path.vi" Type="VI" URL="../subVIs/Package Manager Path.vi"/>
-		<Item Name="Package Path.vi" Type="VI" URL="../subVIs/Package Path.vi"/>
-		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../subVIs/Validate Dir and Create Dir.vi"/>
+		<Item Name="Packager Output Files Path.vi" Type="VI" URL="../subVIs/Packager Output Files Path.vi"/>
 	</Item>
-	<Item Name="MeasBuilder Path.vi" Type="VI" URL="../MeasBuilder Path.vi"/>
+	<Item Name="Packager Files Path.vi" Type="VI" URL="../Packager Files Path.vi"/>
 </Library>
