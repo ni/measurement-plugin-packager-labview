@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-26 07:57:17" Modified_Date="2024-12-26 21:38:00" Creator="lvadmin" Comments="" ID="de2a751df89e1c0a77af2f10d22530d4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-12-26 07:57:17" Modified_Date="2024-12-26 21:46:17" Creator="lvadmin" Comments="" ID="0f62d6d2e1e571213131957e0dc37da4">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_packager</Package_File_Name>
     <Library_Version>2.1.0.1</Library_Version>
@@ -27,7 +27,7 @@
     </Custom_Action_VIs>
     <Description>
       <One_Line_Description_Summary>Provides tooling for packaging LabVIEW measurement plug-ins.</One_Line_Description_Summary>
-      <Description>This package offers tools to compile the LabVIEW measurement plug-ins into NI packages. The packaging utility is accessible from the Tools menu.</Description>
+      <Description>This package offers a tool to compile the LabVIEW measurement plug-ins into NI packages. The packaging utility is accessible from the Tools menu.</Description>
       <Copyright/>
       <Packager>NI</Packager>
       <URL>https://github.com/ni/measurement-plugin-packager-labview</URL>
