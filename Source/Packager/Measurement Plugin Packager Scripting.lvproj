@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,34 +12,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_Measurement Builder" Type="Folder">
+		<Item Name="Measurement Plugin Packager" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Template for Package" Type="Folder">
-				<Item Name="control" Type="Folder">
-					<Item Name="control" Type="Document" URL="../_Measurement Builder/Template for Package/control/control"/>
-				</Item>
-				<Item Name="data" Type="Folder">
-					<Item Name="instructions" Type="Document" URL="../_Measurement Builder/Template for Package/data/instructions"/>
-				</Item>
-				<Item Name="debian-binary" Type="Document" URL="../_Measurement Builder/Template for Package/debian-binary"/>
-			</Item>
-			<Item Name="Measurement Builder" Type="Folder">
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Builder/Measurement Builder/Queue Driver/Queue Driver.lvlib"/>
+			<Item Name="Packager Helpers" Type="Folder">
+				<Item Name="Dictionary" Type="Folder">
+					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Dictionary/Dictionary.lvlib"/>
 				</Item>
 				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Builder/Measurement Builder/Path Functions/Path Functions.lvlib"/>
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Path Functions/Path Functions.lvlib"/>
 				</Item>
-				<Item Name="Dictionary" Type="Folder">
-					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Builder/Measurement Builder/Dictionary/Dictionary.lvlib"/>
+				<Item Name="Queue Driver" Type="Folder">
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Queue Driver/Queue Driver.lvlib"/>
 				</Item>
-				<Item Name="Measurement Builder.lvlib" Type="Library" URL="../_Measurement Builder/Measurement Builder/Measurement Builder.lvlib"/>
+				<Item Name="Packager Helpers.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Packager Helpers.lvlib"/>
 			</Item>
 			<Item Name="Post Install" Type="Folder">
-				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Builder/Post Install/Edit Configuration File.vi"/>
+				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Plugin Packager/Post Install/Edit Configuration File.vi"/>
+			</Item>
+			<Item Name="Template for Package" Type="Folder">
+				<Item Name="control" Type="Folder">
+					<Item Name="control" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/control/control"/>
+				</Item>
+				<Item Name="data" Type="Folder">
+					<Item Name="instructions" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/data/instructions"/>
+				</Item>
+				<Item Name="debian-binary" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/debian-binary"/>
 			</Item>
 		</Item>
-		<Item Name="Build Measurement.vi" Type="VI" URL="../Build Measurement.vi"/>
+		<Item Name="Package Measurement Plugin.vi" Type="VI" URL="../Package Measurement Plugin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -341,7 +343,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
