@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Measurement Packager Utility" Type="Folder">
+		<Item Name="Measurement Plugin Packager" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Packager Helpers" Type="Folder">
 				<Item Name="Dictionary" Type="Folder">
