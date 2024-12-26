@@ -39,7 +39,7 @@
 				<Item Name="debian-binary" Type="Document" URL="../_Measurement Packager Utility/Template for Package/debian-binary"/>
 			</Item>
 		</Item>
-		<Item Name="Package Measurement.vi" Type="VI" URL="../Package Measurement.vi"/>
+		<Item Name="Package Measurement Plugin.vi" Type="VI" URL="../Package Measurement Plugin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
