@@ -12,34 +12,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Measurement Packager Utility" Type="Folder">
+		<Item Name="Measurement Plugin Packager" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Packager Helpers" Type="Folder">
 				<Item Name="Dictionary" Type="Folder">
-					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Dictionary/Dictionary.lvlib"/>
+					<Item Name="Dictionary.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Dictionary/Dictionary.lvlib"/>
 				</Item>
 				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Path Functions/Path Functions.lvlib"/>
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Path Functions/Path Functions.lvlib"/>
 				</Item>
 				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Queue Driver/Queue Driver.lvlib"/>
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Queue Driver/Queue Driver.lvlib"/>
 				</Item>
-				<Item Name="Packager Helpers.lvlib" Type="Library" URL="../_Measurement Packager Utility/Packager Helpers/Packager Helpers.lvlib"/>
+				<Item Name="Packager Helpers.lvlib" Type="Library" URL="../_Measurement Plugin Packager/Packager Helpers/Packager Helpers.lvlib"/>
 			</Item>
 			<Item Name="Post Install" Type="Folder">
-				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Packager Utility/Post Install/Edit Configuration File.vi"/>
+				<Item Name="Edit Configuration File.vi" Type="VI" URL="../_Measurement Plugin Packager/Post Install/Edit Configuration File.vi"/>
 			</Item>
 			<Item Name="Template for Package" Type="Folder">
 				<Item Name="control" Type="Folder">
-					<Item Name="control" Type="Document" URL="../_Measurement Packager Utility/Template for Package/control/control"/>
+					<Item Name="control" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/control/control"/>
 				</Item>
 				<Item Name="data" Type="Folder">
-					<Item Name="instructions" Type="Document" URL="../_Measurement Packager Utility/Template for Package/data/instructions"/>
+					<Item Name="instructions" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/data/instructions"/>
 				</Item>
-				<Item Name="debian-binary" Type="Document" URL="../_Measurement Packager Utility/Template for Package/debian-binary"/>
+				<Item Name="debian-binary" Type="Document" URL="../_Measurement Plugin Packager/Template for Package/debian-binary"/>
 			</Item>
 		</Item>
-		<Item Name="Package Measurement.vi" Type="VI" URL="../Package Measurement.vi"/>
+		<Item Name="Package Measurement Plugin.vi" Type="VI" URL="../Package Measurement Plugin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
