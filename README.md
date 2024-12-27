@@ -31,8 +31,7 @@ To edit the configuration required for the LabVIEW measurement plug-in packager:
 Builder\Configuration.ini`  
     ![BuilderConfiguration](./docs/Measurement%20Builder%20HLD/BuilderConfiguration.png)
 
-2. Change architecture to support 32 bits. Supported options are shown:
-below.
+2. Change architecture to support 32 bits. Supported options are shown below:
     - 32 – to build package in 32 bits
     - 64 – to build package in 64 bits
     - Both – to build packages in both architectures.
@@ -68,7 +67,7 @@ below.
 ### Note
 
 1. Once the build is complete, you can publish the feed or packages to a public repository or SystemLink, if desired.
-1. (Optional) To install the packages from feed, refer [Installing Packages from a Feed](https://www.ni.com/docs/en-US/bundle/package-manager/page/install-packages-from-feed.html#:~:text=In%20the%20Add%20feed%20dialog,to%20view%20all%20available%20packages).
+2. (Optional) To install the packages from feed, refer [Installing Packages from a Feed](https://www.ni.com/docs/en-US/bundle/package-manager/page/install-packages-from-feed.html#:~:text=In%20the%20Add%20feed%20dialog,to%20view%20all%20available%20packages).
 
 ## Known Issues
 
