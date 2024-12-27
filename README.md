@@ -50,12 +50,12 @@ below.
 1. Choose the LabVIEW project that contains the measurement plug-ins to package.
 2. Enable the "Open the target directory post build" checkbox to automatically open the build directory after the build process is complete
 3. To create a new NIPM feed for the package(s), select the "Create New Feed" option.
-4. To add the packages to the existing feed, select “Add to existing feed” and select the feed directory.  
+4. Else, to add the package(s) to an existing NIPM feed, select the ''Add to Existing Feed'' option, and specify the feed directory.  
     ![AddtoFeed](./docs/Measurement%20Builder%20HLD/AddtoFeed.png)
-5. To skip feed creation, deselect both the options.  
+5. To bypass feed creation, ensure that both the "Create New Feed" and "Add to Existing Feed" options are deselected.  
     ![Package Measurement](./docs/Measurement%20Builder%20HLD/PackageMeasurement.png)
-6. Click the `Next` button
-7. Select the measurements to be package and click the `Next` button.  
+6. Click the `Next` button to continue
+7. Select the measurements to be packaged and click the `Next` button.  
     ![Measurement Selection](./docs/Measurement%20Builder%20HLD/Measurement_Selection.png)
 8. If needed, you can edit the package version of the measurement plug-in. Note that the measurement name cannot be modified.  
     ![Package Versioning](./docs/Measurement%20Builder%20HLD/Package_Versioning.png)
