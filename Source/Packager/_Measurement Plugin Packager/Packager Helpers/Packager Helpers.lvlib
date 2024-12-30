@@ -26,7 +26,6 @@
 		<Item Name="Convert to Valid Package Name.vi" Type="VI" URL="../subVIs/Convert to Valid Package Name.vi"/>
 		<Item Name="Copy Packaging Components.vi" Type="VI" URL="../subVIs/Copy Packaging Components.vi"/>
 		<Item Name="Covert to Valid Folder Name.vi" Type="VI" URL="../subVIs/Covert to Valid Folder Name.vi"/>
-		<Item Name="Create Configuration File.vi" Type="VI" URL="../subVIs/Create Configuration File.vi"/>
 		<Item Name="Create Feed.vi" Type="VI" URL="../subVIs/Create Feed.vi"/>
 		<Item Name="Edit Control File.vi" Type="VI" URL="../subVIs/Edit Control File.vi"/>
 		<Item Name="Edit Instructions File.vi" Type="VI" URL="../subVIs/Edit Instructions File.vi"/>
