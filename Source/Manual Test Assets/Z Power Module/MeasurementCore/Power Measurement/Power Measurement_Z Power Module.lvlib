@@ -14,10 +14,10 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="pow Meas Configure or Measure.ctl" Type="VI" URL="../Typedefs/pow Meas Configure or Measure.ctl"/>
 		<Item Name="Pow Meas Init Settings.ctl" Type="VI" URL="../Typedefs/Pow Meas Init Settings.ctl"/>
-		<Item Name="Pow Meas Rigger Settings.ctl" Type="VI" URL="../Typedefs/Pow Meas Rigger Settings.ctl"/>
+		<Item Name="Pow Meas Trigger Settings.ctl" Type="VI" URL="../Typedefs/Pow Meas Trigger Settings.ctl"/>
 		<Item Name="Pow Meas Timing Settings.ctl" Type="VI" URL="../Typedefs/Pow Meas Timing Settings.ctl"/>
 	</Item>
 	<Item Name="Pow Meas Init.vi" Type="VI" URL="../Pow Meas Init.vi"/>
 	<Item Name="Pow Meas Configure and Measure.vi" Type="VI" URL="../Pow Meas Configure and Measure.vi"/>
-	<Item Name="Pow Meas Unint.vi" Type="VI" URL="../Pow Meas Unint.vi"/>
+	<Item Name="Pow Meas Close.vi" Type="VI" URL="../Pow Meas Close.vi"/>
 </Library>
