@@ -22,10 +22,10 @@ more details.
 
 ## Getting Started
 
-This repo contains source code and package build specifications for building the source into VI
-packages.
+This repo contains source code and package build specification for building the source into VI
+package.
 
-The source code can be found under the `Source` directory. The package definition files (.vipb) can
+The source code can be found under the `Source` directory. The package definition file (.vipb) can
 be found under the `Build Specs` directory.
 
 ## Prerequisites
@@ -35,8 +35,8 @@ be found under the `Build Specs` directory.
 
 ## Clone or Update the Git Repository
 
-To download the InstrumentStudio Plug-In for LabVIEW source, clone its Git repository to your local
-PC.
+To download the Measurement Plug-In Packager for LabVIEW source, clone its Git repository to your
+local PC.
 
 ```cmd
 git clone https://github.com/ni/measurement-plugin-packager-labview.git
@@ -58,31 +58,32 @@ To contribute to this project, it is recommended that you follow these steps:
 2. Send a GitHub Pull Request to the main repository's master branch. GitHub Pull Requests are the
    expected method of code collaboration on this project.
 
-## Building the Measurement Plug-In Sequencer package
+## Building the Measurement Plug-In Packager package
 
 To build the package:
 
-1. Open the VIPM specification file (.vipb) under the [build
-spec](https://github.com/ni/measurement-plugin-packager-labview/tree/main/Build%20Specs) folder
-using VIPM 2021 or later
-2. Click Build - A .vip will be created in the `Build Output` folder under the repo root directory
+1. Open the VIPM specification file (.vipb) under the [Build
+   Specs](https://github.com/ni/measurement-plugin-packager-labview/tree/main/Build%20Specs) folder
+   using VIPM 2021 or later
+2. Click Build. A `.vip` file will be created in the `Build Output` folder under the repository's
+   root directory
 
-The `ni_measurement_plugin_packager` package contains the libraries needed to build measurement
-plug-ins into NI Packages.
+The `ni_measurement_plugin_packager` package contains the libraries and template files required to
+build measurement plug-ins into NI Packages.
 
 ### Packager Helpers
 
-The `Packager Helpers` folder contains the libraries that contain the scripting code required to
-build the NI packages.
+The `Packager Helpers` folder contains the scripting code required to build the NI packages.
 
 ### Post Install
 
-The `Post Install` folder contains the VI that is used to generate the `Configuration.ini` file as a
-post installation operation for the package.
+The `Post Install` folder contains the VI file that is used to generate the `Configuration.ini` file
+as a post installation operation for the package.
 
 ### Template for Package
 
-The `Template for Package` folder contains the template files that are required for an NI Package.
+The `Template for Package` folder contains the template files that are required to build an NI
+Package.
 
 ## Testing
 
