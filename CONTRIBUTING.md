@@ -22,7 +22,7 @@ more details.
 
 ## Getting Started
 
-This repo contains source code and package build specification for building the source into a VI
+This repo contains source code and package build specifications for building the source into a VI
 package.
 
 The source code can be found under the `Source` directory. The package definition file (.vipb) can
@@ -69,7 +69,7 @@ To build the package:
    root directory
 
 The `ni_measurement_plugin_packager` package contains the libraries and template files required to
-build NI Packages for measurement plug-ins.
+build measurement plug-ins into NI Packages.
 
 ### Packager Helpers
 
@@ -77,8 +77,8 @@ The `Packager Helpers` folder contains the scripting code needed to build NI pac
 
 ### Post Install
 
-The `Post Install` folder contains the VI file that is required for a post installation operation of
-the package.
+The `Post Install` folder contains the VI file required for post-installation operations of the
+package.
 
 ### Template for Package
 
