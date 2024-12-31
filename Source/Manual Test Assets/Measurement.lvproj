@@ -12,11 +12,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MeasurementCore" Type="Folder">
 			<Item Name="niScope EX Getting Started" Type="Folder">
-				<Item Name="niScope EX Getting Started_dependencies.lvlib" Type="Library" URL="../niScope EX Getting Started/MeasurementCore/niScope EX Getting Started_dependencies.lvlib"/>
+				<Item Name="niScope EX Getting Started dependencies.lvlib" Type="Library" URL="../niScope EX Getting Started/MeasurementCore/niScope EX Getting Started dependencies.lvlib"/>
 			</Item>
 			<Item Name="Z Power Module" Type="Folder">
-				<Item Name="Main Library_Z Power Module.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Main Library_Z Power Module.lvlib"/>
-				<Item Name="Power Measurement_Z Power Module.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Power Measurement_Z Power Module.lvlib"/>
+				<Item Name="Z Power Module Main Library.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Z Power Module Main Library.lvlib"/>
+				<Item Name="Z Power Module Power Measurement.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Z Power Module Power Measurement.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="niScope EX Getting Started UI.lvlib" Type="Library" URL="../niScope EX Getting Started UI/niScope EX Getting Started UI.lvlib"/>

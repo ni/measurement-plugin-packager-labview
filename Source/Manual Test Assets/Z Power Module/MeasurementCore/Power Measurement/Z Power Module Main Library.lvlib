@@ -11,8 +11,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Pow Meas Analyzed Data.ctl" Type="VI" URL="../Power Measurement/Typedefs/Pow Meas Analyzed Data.ctl"/>
+	<Item Name="controls" Type="Folder">
+		<Item Name="Analyzed Data.ctl" Type="VI" URL="../Typedefs/Analyzed Data.ctl"/>
 	</Item>
-	<Item Name="Power Module.vi" Type="VI" URL="../Power Module.vi"/>
+	<Item Name="Power Module.vi" Type="VI" URL="../../Power Module.vi"/>
 </Library>
