@@ -6,7 +6,7 @@ Measurement Plug-In Packager for LabVIEW is managed via [git](https://git-scm.co
 canonical upstream repository hosted on
 [GitHub](https://github.com/ni/measurement-plugin-packager-labview).
 
-Measurement Plug-In Packager for LabVIEW follows a pull-request model for development.  If you wish
+Measurement Plug-In Packager for LabVIEW follows a pull-request model for development. If you wish
 to contribute, you will need to create a GitHub account, fork this project, push a branch with your
 changes to your project, and then submit a pull request.
 
