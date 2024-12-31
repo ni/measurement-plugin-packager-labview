@@ -15,7 +15,7 @@
 				<Item Name="niScope EX Getting Started dependencies.lvlib" Type="Library" URL="../niScope EX Getting Started/MeasurementCore/niScope EX Getting Started dependencies.lvlib"/>
 			</Item>
 			<Item Name="Z Power Module" Type="Folder">
-				<Item Name="Z Power Module Main Library.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Z Power Module Main Library.lvlib"/>
+				<Item Name="Z Power Module Main Library.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Z Power Module Main Library.lvlib"/>
 				<Item Name="Z Power Module Power Measurement.lvlib" Type="Library" URL="../Z Power Module/MeasurementCore/Power Measurement/Z Power Module Power Measurement.lvlib"/>
 			</Item>
 		</Item>
