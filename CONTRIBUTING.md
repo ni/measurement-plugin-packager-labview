@@ -73,12 +73,13 @@ build measurement plug-ins into NI Packages.
 
 ### Packager Helpers
 
-The `Packager Helpers` folder contains the scripting code needed to build NI packages.
+The `Packager Helpers` folder contains the scripting code needed to build NI packages for the
+measurement plug-ins.
 
 ### Post Install
 
 The `Post Install` folder contains the VI file required for post-installation operations of the
-package.
+`ni_measurement_plugin_packager` package.
 
 ### Template for Package
 
