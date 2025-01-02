@@ -20,9 +20,12 @@ Z Power Module:
 Converter tool.
 - It demonstrates how to acquire a single buffer of power measurements using a DAQmx device. This
 measurement is valid, and so the package build for the plug-in is expected to be successful.
-- Required Hardware: This measurement requires a TestScale Programmable Power Supply, also known as
-TestScale Power Module (e.g. TS-15200).
-- To simulate a TestScale Programmable Power Supply in software: open `NI Hardware Configuration
-Utility`, click `Edit` -> `Add Hardware...`, select the `Simulated` tab, and select the `TS-15200`
-device in the `Power` category. You may need to also simulate a TestScale chassis (e.g. TS-15000) if
-none exist in the system.
+- Hardware Requirements
+	- TestScale Programmable Power Supply/TestScale Power Module (e.g. TS-15200)
+- Simulating the Hardware
+	- Open `NI Hardware Configuration Utility`
+	- Click `Edit` -> `Add Hardware...`
+	- In the `Simulated` tab, find and select the `TS-15200` device under the `Power` category. This
+	will create the necessary simulated TestScale Power Module device.
+	Note: You may also need to simulate a TestScale chassis (e.g. TS-15000) if none exist in the
+	system.
