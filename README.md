@@ -2,74 +2,96 @@
 
 - [Measurement Plug-In Packager for LabVIEW](#measurement-plug-in-packager-for-labview)
   - [Introduction](#introduction)
+  - [Software support](#software-support)
   - [Installation](#installation)
   - [Editing Configurations](#editing-configurations)
-  - [Usage](#usage)
-    - [Launching the Measurement Plug-in Packager](#launching-the-measurement-plug-in-packager)
-    - [Packaging LabVIEW Measurement Plug-in(s)](#packaging-labview-measurement-plug-ins)
-  - [Known Issues](#known-issues)
+  - [Packaging LabVIEW Measurement Plug-in(s)](#packaging-labview-measurement-plug-ins)
+    - [Note](#note)
+  - [Limitations](#limitations)
 
 ## Introduction
 
-The Measurement Plug-In Packager simplifies the creation of NI package files (.nipkg) for LabVIEW measurement plug-ins. This tool enhances efficiency by streamlining the process of building and distributing measurement plug-ins.
+The Measurement Plug-In Packager simplifies the creation of NI package files (.nipkg) for LabVIEW
+measurement plug-ins. This tool enhances efficiency by streamlining the process of building and
+distributing measurement plug-ins.
 
-## Dependencies
+## Software support
 
 - [LabVIEW 2021 SP1](https://www.ni.com/en/support/downloads/software-products/download.labview.html#443865)  or later
-- [Measurement Plug-In SDK for LabVIEW 3.0.0.3](https://github.com/ni/measurement-plugin-labview/releases/tag/v3.0.0.3) or later
 - [JKI VI Package Manager 2021 SP1](https://www.ni.com/en/support/downloads/tools-network/download.jki-vi-package-manager.html#443251) or later
 
 ## Installation
 
-1. Download and install the `ni_measurement_plugin_packager-X.X.X-X.vip` package from the latest release assets.
+Download and install the `ni_measurement_plugin_packager-X.X.X-X.vip` package from the latest
+release assets.
 
 ## Editing Configurations
 
-To edit the configuration required for the LabVIEW measurement plug-in packager:
+- The `MaintainerName`, `MaintainerEmail`, and `Architecture` details needed to configure the NI
+Packages are collected from the machine's system information as a post installation operation of the
+tool's package. These details are stored in the configuration file located at:
+`C:\ProgramData\National Instruments\Measurement Plugin Packager\Configuration.ini`
 
-1. Open the `C:\ProgramData\National Instruments\Measurement
-Builder\Configuration.ini`  
-    ![BuilderConfiguration](./docs/Measurement%20Builder%20HLD/BuilderConfiguration.png)
+  ![Packager Configuration](./docs/images/Configuration%20File.PNG)
 
-2. Change architecture to support 32 bits. Supported options are shown below:
-    - 32 – to build package in 32 bits
-    - 64 – to build package in 64 bits
-    - Both – to build packages in both architectures.
-3. Edit the maintainer’s name and email address if required.
+- If needed, you can edit this file to modify the properties of the NI packages built by the tool.
+  
+  **Note:**
+  Supported architecture options are:
+  - 32 - to build the package for 32-bit systems
+  - 64 - to build the package for 64-bit systems
+  - Both - to build the package for both 32-bit and 64-bit systems, ensuring compatibility with any
+system architecture
 
-## Usage
+## Packaging LabVIEW Measurement Plug-in(s)
 
-### Launching the Measurement Plug-in Packager
+1. Open LabVIEW and navigate to `Tools` → `Plug-In SDKs` → `Measurements` → `Package Measurement
+   Plug-in...`.
 
-1. Open `LabVIEW` → `Tools` → `Plug-In SDKs` → `Measurements` → `Package Measurement Plug-in...`  
-    ![PackgeMeasurement](./docs/Measurement%20Builder%20HLD/PackageMeasurement.png)
+    ![Measurement Plug-In Packager Tool dialog](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
 
-### Packaging LabVIEW Measurement Plug-in(s)
+2. In the dialog, select the LabVIEW project that contains the measurement plug-ins to package.
 
-1. Choose the LabVIEW project that contains the measurement plug-ins to package.
-2. Enable the "Open the target directory post build" checkbox to automatically open the build directory after the build process is complete
-3. To create a new NIPM feed for the package(s), select the "Create New Feed" option.
-4. Else, to add the package(s) to an existing NIPM feed, select the ''Add to Existing Feed'' option, and specify the feed directory.  
-    ![AddtoFeed](./docs/Measurement%20Builder%20HLD/AddtoFeed.png)
-5. To bypass feed creation, ensure that both the "Create New Feed" and "Add to Existing Feed" options are deselected.  
-    ![Package Measurement](./docs/Measurement%20Builder%20HLD/PackageMeasurement.png)
-6. Click the `Next` button to continue
-7. Select the measurements to be packaged and click the `Next` button.  
-    ![Measurement Selection](./docs/Measurement%20Builder%20HLD/Measurement_Selection.png)
-8. If needed, you can edit the package version of the measurement plug-in. Note that the measurement name cannot be modified.  
-    ![Package Versioning](./docs/Measurement%20Builder%20HLD/Package_Versioning.png)
-9. Click `Build` to start the packaging process.
-10. After the packaging is complete:
+   Note: The "Open the target directory post build" checkbox is enabled by default to open the
+   Package directory upon completion of the build process. This option can be disabled if needed.
+3. To create a new NIPM feed for the packages, select the "Create New Feed" option.
+4. Else, to add the packages to an existing NIPM feed, select the "Add to Existing Feed" option, and
+   specify the feed directory.
+
+    ![Add to Feed](./docs/images/Add%20to%20Feed%20Option.png)
+
+5. To bypass feed creation, ensure that both the "Create New Feed" and "Add to Existing Feed"
+   options are deselected.
+
+    ![No Feed](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
+
+6. Click the `Next` button to display the available measurement plug-ins in the selected project.
+    - In the list, select the measurement plug-ins to be packaged.
+
+    ![Measurement Selection](./docs/images/Measurement%20Selection.png)
+
+7. After measurement selection, click the `Next` button to continue.
+    - This will populate the Package name and version details for the selected measurement plug-ins.
+    - If required, edit the version details of the measurement plug-in packages.
+
+   ![Version Information](./docs/images/Version%20Information.png)
+
+8. Click on the `Build` button to start the packaging process.
+9. After the packaging is complete:
     - The build status will be displayed.
-    - If the "Open the target directory post build" option is enabled, the File Explorer will open the build directory.  
-    ![Build Status](./docs/Measurement%20Builder%20HLD/Build_Status.png)
+    - If the "Open the target directory post build" option is enabled, the File Explorer will open
+      the Package directory.
+
+    ![Build Status](./docs/images/Build%20Status.png)
 
 ### Note
 
-1. Once the build is complete, you can publish the feed or packages to a public repository or SystemLink, if desired.
-2. (Optional) To install the packages from feed, refer [Installing Packages from a Feed](https://www.ni.com/docs/en-US/bundle/package-manager/page/install-packages-from-feed.html#:~:text=In%20the%20Add%20feed%20dialog,to%20view%20all%20available%20packages).
+1. Once the build is complete, you can publish the feed or packages to a public repository or
+   SystemLink, if desired.
+2. To install the packages from feed, refer to [Installing Packages from a
+   Feed](https://www.ni.com/docs/en-US/bundle/package-manager/page/install-packages-from-feed.html#:~:text=In%20the%20Add%20feed%20dialog,to%20view%20all%20available%20packages).
 
-## Known Issues
+## Limitations
 
-1. When more measurements are available, clicking the scrollbar selects/deselects the measurements.
-2. Measurement name starting with `ni-` package build will fail.
+The package build process will fail for measurement plugins whose names are prefixed with 'ni-',
+regardless of case sensitivity.
