@@ -57,8 +57,8 @@ release assets.
 
 2. In the dialog, select the LabVIEW project that contains the measurement plug-ins to package.
    Note:
-   - If the tool is launched from a project window, the active project path will be automatically
-     populated in the "LabVIEW Project Path" field.
+   - If the tool is launched from a project window, the "LabVIEW Project Path" field will be
+     automatically populated with the active project path.
    - The "Open the target directory post build" checkbox is enabled by default to open the packages
      directory upon completion of the build process. If needed, you can disable this option.
 
@@ -75,13 +75,11 @@ release assets.
       ![No Feed](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
 
 4. Click on the `Next` button to display the measurement plug-ins available in the selected project.
-    - In the list, select the measurement plug-ins to be packaged.
+    - In the list, select the measurement plug-ins to be packaged and click `Next`.
 
       ![Measurement Selection](./docs/images/Measurement%20Selection.png)
 
-5. Click the on `Next` button to continue.
-    - This will populate the Package name and version details of the selected measurement plug-ins.
-    - If required, edit the package version of the measurement plug-in.
+5. Review the package version information of the selected measurement plug-ins and edit if required.
 
       ![Version Information](./docs/images/Version%20Information.png)
 
