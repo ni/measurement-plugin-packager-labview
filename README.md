@@ -74,7 +74,7 @@ release assets.
 
       ![No Feed](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
 
-4. Click on the `Next` button to display the measurement plug-ins available in the selected project.
+4. Click on the `Next` button to view the measurement plug-ins available in the selected project.
     - In the list, select the measurement plug-ins to be packaged and click `Next`.
 
       ![Measurement Selection](./docs/images/Measurement%20Selection.png)
