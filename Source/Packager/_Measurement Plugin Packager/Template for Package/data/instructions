@@ -1,6 +1,6 @@
 <instructions>
 <customDirectories>
-	<customDirectory name="dfbdfb" path="C:\ProgramData\National Instruments\MeasurementLink\Services\dfbdfb"  />
+	<customDirectory name="dfbdfb" path="C:\ProgramData\National Instruments\Plug-Ins\Measurements\dfbdfb"  />
 </customDirectories>
 </instructions>
 
