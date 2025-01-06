@@ -45,7 +45,7 @@ release assets.
   - 64 - to build package for 64-bit systems
   - Both - to build package for both 32-bit and 64-bit systems, ensuring compatibility with any
     system architecture
-- If these details are not modified, the default values will be used for packaging the measurement
+- If these fields are not updated, the default values will be used for packaging the measurement
   plug-ins.
 
 ## Packaging LabVIEW Measurement Plug-in(s)
