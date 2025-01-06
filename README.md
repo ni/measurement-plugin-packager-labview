@@ -100,5 +100,5 @@ release assets.
 
 ## Limitations
 
-The package build process will fail for measurement plugins whose names are prefixed with 'ni-',
-regardless of case sensitivity.
+The package build process will fail for measurement plugins whose destination directory names in
+their respective EXE Build Specifications are prefixed with 'ni-', regardless of case sensitivity.
