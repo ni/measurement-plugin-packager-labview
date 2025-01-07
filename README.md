@@ -62,7 +62,7 @@ release assets.
    - The "Open the target directory post build" checkbox is enabled by default to open the packages
      directory upon completion of the build process. If needed, you can disable this option.
 
-3. You can create NIPM feed as part of the measurement plug-in packaging,
+3. You can create or update a NIPM feed as part of the measurement plug-in packaging,
    - To create a new NIPM feed for the packages, select the "Create New Feed" option.
    - Else, to add the packages to an existing NIPM feed, select the "Add to Existing Feed" option,
      and specify the feed directory.
