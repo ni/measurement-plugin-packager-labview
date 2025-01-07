@@ -55,14 +55,14 @@ release assets.
 
     ![Measurement Plug-In Packager Tool dialog](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
 
-2. In the dialog, select the LabVIEW project that contains the measurement plug-ins to package.
-    Note:
+2. In the dialog, select the LabVIEW project that contains the measurement plug-ins to package.  
+   Note:
    - If the tool is launched from a project window, the "LabVIEW Project Path" field will be
      automatically populated with the active project path.
    - The "Open the target directory post build" checkbox is enabled by default to open the packages
      directory upon completion of the build process. If needed, you can disable this option.
 
-3. You can create NIPM feed as part of the measurement plug-in packaging,
+4. You can create NIPM feed as part of the measurement plug-in packaging,
    - To create a new NIPM feed for the packages, select the "Create New Feed" option.
    - Else, to add the packages to an existing NIPM feed, select the "Add to Existing Feed" option,
      and specify the feed directory.
@@ -74,17 +74,17 @@ release assets.
 
       ![No Feed](./docs/images/Measurement%20Plug-In%20Packager%20dialog.png)
 
-4. Click on the `Next` button to view the measurement plug-ins available in the selected project.
+5. Click on the `Next` button to view the measurement plug-ins available in the selected project.
     - In the list, select the measurement plug-ins to be packaged and click `Next`.
 
       ![Measurement Selection](./docs/images/Measurement%20Selection.png)
 
-5. Review the package version information of the selected measurement plug-ins and edit if required.
+6. Review the package version information of the selected measurement plug-ins and edit if required.
 
       ![Version Information](./docs/images/Version%20Information.png)
 
-6. Click on the `Build` button to start the packaging process.
-7. After the packaging is complete:
+7. Click on the `Build` button to start the packaging process.
+8. After the packaging is complete:
     - The build status will be displayed.
     - If the "Open the target directory post build" option is enabled, the File Explorer will open
       the packages directory.
