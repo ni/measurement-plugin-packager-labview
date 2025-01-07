@@ -19,7 +19,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Add Packages to Feed.vi" Type="VI" URL="../subVIs/Add Packages to Feed.vi"/>
 		<Item Name="Architecture Conversion.vi" Type="VI" URL="../subVIs/Architecture Conversion.vi"/>
-		<Item Name="Build Package cmd.vi" Type="VI" URL="../subVIs/Build Package cmd.vi"/>
+		<Item Name="Build Package Cmd.vi" Type="VI" URL="../subVIs/Build Package Cmd.vi"/>
 		<Item Name="Build Package.vi" Type="VI" URL="../subVIs/Build Package.vi"/>
 		<Item Name="Check Initial Version.vi" Type="VI" URL="../subVIs/Check Initial Version.vi"/>
 		<Item Name="Check the Symbols.vi" Type="VI" URL="../subVIs/Check the Symbols.vi"/>
@@ -29,14 +29,14 @@
 		<Item Name="Create Feed.vi" Type="VI" URL="../subVIs/Create Feed.vi"/>
 		<Item Name="Edit Control File.vi" Type="VI" URL="../subVIs/Edit Control File.vi"/>
 		<Item Name="Edit Instructions File.vi" Type="VI" URL="../subVIs/Edit Instructions File.vi"/>
-		<Item Name="Get Active ProjectPath.vi" Type="VI" URL="../subVIs/Get Active ProjectPath.vi"/>
-		<Item Name="Get all Build Spec Details.vi" Type="VI" URL="../subVIs/Get all Build Spec Details.vi"/>
+		<Item Name="Get Active Project Path.vi" Type="VI" URL="../subVIs/Get Active Project Path.vi"/>
+		<Item Name="Get All Build Spec Details.vi" Type="VI" URL="../subVIs/Get All Build Spec Details.vi"/>
 		<Item Name="Get Files and Folders.vi" Type="VI" URL="../subVIs/Get Files and Folders.vi"/>
 		<Item Name="Get Selected Measurements Data.vi" Type="VI" URL="../subVIs/Get Selected Measurements Data.vi"/>
 		<Item Name="Icons.vi" Type="VI" URL="../subVIs/Icons.vi"/>
 		<Item Name="Move the EXE.vi" Type="VI" URL="../subVIs/Move the EXE.vi"/>
-		<Item Name="Populate package files.vi" Type="VI" URL="../subVIs/Populate package files.vi"/>
-		<Item Name="Read or Write Configurations.vi" Type="VI" URL="../subVIs/Read or Write Configurations.vi"/>
+		<Item Name="Populate Package Files.vi" Type="VI" URL="../subVIs/Populate Package Files.vi"/>
+		<Item Name="Read or Write Configuration.vi" Type="VI" URL="../subVIs/Read or Write Configuration.vi"/>
 		<Item Name="Set Version.vi" Type="VI" URL="../subVIs/Set Version.vi"/>
 		<Item Name="Start Build.vi" Type="VI" URL="../subVIs/Start Build.vi"/>
 		<Item Name="Validate Project Path.vi" Type="VI" URL="../subVIs/Validate Project Path.vi"/>
