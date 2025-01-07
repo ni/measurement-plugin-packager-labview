@@ -33,7 +33,7 @@ release assets.
   file located at `C:\ProgramData\National Instruments\Measurement Plugin
   Packager\Configuration.ini` during the Packager installation.
 
-  ![Packager Configuration](./docs/images/Configuration%20File.PNG)
+  ![Packager Configuration](./docs/images/Configuration%20File.png)
 
 - If required, you can edit these details to customize the properties of the NI packages built by
   the tool.
@@ -100,5 +100,6 @@ release assets.
 
 ## Limitations
 
-The package build process will fail for measurement plugins whose destination directory names in
-their respective EXE Build Specifications are prefixed with 'ni-', regardless of case sensitivity.
+The package build process will fail for measurement plug-ins whose destination directory names
+configured in their respective EXE Build Specifications are prefixed with 'ni-', regardless of case
+sensitivity.
