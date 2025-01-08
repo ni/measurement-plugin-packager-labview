@@ -89,7 +89,7 @@ release assets.
     - If the "Open the target directory post build" option is enabled, the File Explorer will open
       the packages directory.
 
-      ![Build Status](./docs/images/Build%20Status.png)
+      ![Packaging Status](./docs/images/Packaging%20Status.png)
 
 ### Note
 
