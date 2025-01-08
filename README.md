@@ -29,9 +29,8 @@ release assets.
 
 - The Packager requires user information such as the `MaintainerName`, `MaintainerEmail`, and `Architecture` to
   configure the properties of the NI Packages to be built.
-- These details are collected from your machine's system information and saved in a configuration
-  file located at `C:\ProgramData\National Instruments\Measurement Plugin
-  Packager\Configuration.ini` during the Packager installation.
+- During the tool installation, these details are updated based on your PC's information in the file `C:\ProgramData\National Instruments\Measurement Plugin
+  Packager\Configuration.ini`.
 
   ![Packager Configuration](./docs/images/Configuration%20File.png)
 
