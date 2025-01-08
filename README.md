@@ -22,15 +22,15 @@ distributing measurement plug-ins.
 
 ## Installation
 
-Download and install the `ni_measurement_plugin_packager-X.X.X-X.vip` package from the latest
+Download and install the `ni_measurement_plugin_packager-X.X.X.X.vip` package from the latest
 release assets.
 
 ## Editing Package Configuration
 
-- The Packager requires user information such as the `MaintainerName`, `MaintainerEmail`, and `Architecture` to
-  configure the properties of the NI Packages to be built.
-- During the tool installation, these details are updated based on your PC's information in the file `C:\ProgramData\National Instruments\Measurement Plugin
-  Packager\Configuration.ini`.
+- The Packager requires user information such as the `MaintainerName`, `MaintainerEmail`, and
+  `Architecture` to configure the properties of the NI Packages to be built.
+- During the tool installation, these details are updated based on your PC's information in the file
+  `C:\ProgramData\National Instruments\Measurement Plugin Packager\Configuration.ini`.
 
   ![Packager Configuration](./docs/images/Configuration%20File.png)
 
@@ -84,7 +84,7 @@ release assets.
 
 6. Click on the `Package` button to start the packaging process.
 7. After the packaging is complete:
-    - The build status will be displayed.
+    - The packaging status will be displayed.
     - If the "Open the target directory post build" option is enabled, the File Explorer will open
       the packages directory.
 
@@ -92,7 +92,7 @@ release assets.
 
 ### Note
 
-1. Once the build is complete, you can publish the feed or packages to a public repository or
+1. Once the packaging is complete, you can publish the feed or packages to a public repository or
    SystemLink, if desired.
 2. To install the packages from feed, refer to [Installing Packages from a
    Feed](https://www.ni.com/docs/en-US/bundle/package-manager/page/install-packages-from-feed.html#:~:text=In%20the%20Add%20feed%20dialog,to%20view%20all%20available%20packages).
