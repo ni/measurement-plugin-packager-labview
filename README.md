@@ -100,6 +100,6 @@ release assets.
 
 ## Limitations
 
-The package build process will fail for measurement plug-ins whose destination directory names
+The packaging process will fail for measurement plug-ins whose destination directory names
 configured in their respective EXE Build Specifications are prefixed with 'ni-', regardless of case
 sensitivity.
